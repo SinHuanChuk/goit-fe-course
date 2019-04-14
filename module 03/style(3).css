@@ -1,0 +1,123 @@
+/*conventions*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&subset=cyrillic');
+
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/*hade*/
+
+.page-nav {
+    padding-top: 78px;
+    padding-bottom: 105px;
+}
+
+.site-navigation {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin-left: 105px;
+}
+
+.site-navigation li:first-child {
+    margin-left: 0;
+}
+
+.site-navigation a {
+    color: gray;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: rgb(59, 201, 248);
+}
+
+/*conten*/
+
+.container-section {
+    margin-bottom: 60px;
+}
+
+.container-section-ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-section-item {
+    display: inline-block;
+    width: 420px;
+    margin-right: 56px;
+}
+
+.container-section-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+
+.container-section p {
+    color: gray;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.container-section h3 {
+    color: gray;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Playfair Display', serif;
+}
+
+.container-section-item:nth-last-child(-n + 4) {
+    margin-top: 132px;
+}
+
+/*footer*/
+
+footer {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.load-more{
+    border: 2px solid gray;
+    margin: 0;
+    padding: 18px 46px;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: white;
+    color: gray;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.load-more:hover,
+.load-more:focus {
+    color: rgb(27, 172, 172)
+}
