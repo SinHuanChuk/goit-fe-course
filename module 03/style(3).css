@@ -27,7 +27,7 @@ html {
 .site-navigation {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 0;
     list-style-type: none;
     text-align: center;
 }
@@ -35,6 +35,7 @@ html {
 .site-navigation li {
     display: inline-block;
     margin-left: 105px;
+    font-size: 16px;
 }
 
 .site-navigation li:first-child {
@@ -55,6 +56,18 @@ html {
 
 /*conten*/
 
+img {
+    margin-bottom: 20px;
+}
+
+.p-1{
+    margin: 0;
+}
+
+.zagolovok {
+    margin: 0;
+}
+
 .container-section {
     margin-bottom: 60px;
 }
@@ -63,12 +76,13 @@ html {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    font-size: 0;
 }
 
 .container-section-item {
     display: inline-block;
     width: 420px;
-    margin-right: 56px;
+    margin-right: 60px;
 }
 
 .container-section-item:nth-child(2n) {
@@ -98,10 +112,6 @@ html {
 
 /*footer*/
 
-footer {
-    width: 900px;
-    margin: 0 auto;
-}
 
 .load-more{
     border: 2px solid gray;
