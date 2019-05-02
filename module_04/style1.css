@@ -1,0 +1,229 @@
+/*CONVETIONS*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700|Roboto:300,900');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.page-head {
+    padding-bottom: 107px;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0 0 0;
+}
+
+.logo {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    color: gray;
+}
+
+.logo::first-letter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #4ec6ab;
+}
+
+.site-navigation {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    list-style: none;
+}
+
+.site-navigation li {
+    font-weight: 900;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.site-navigation li:last-child {
+    margin-right: 0;
+
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #4ec6ab;
+}
+
+.site-navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.shop-title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 900;
+    color: #515151;
+    width: 477px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 133px;
+}
+
+.shop-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 164px;
+    height: 7px;
+    background-color: #4ec6ab;
+    top: 78px;
+    left: 155px;
+}
+
+.shop-menu {
+    list-style: none;
+}
+
+.shop-menu-item {
+    width: 255px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 26px;
+}
+
+.shop-menu-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.shop-menu-item-link {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.wrapper {
+    margin-top:-4px;
+    font-size: 0;
+}
+
+.product-description {
+    display: inline-block;
+    padding: 14px 0 13px 14px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #323232;
+    color: white;
+
+}
+
+.product-price {
+    display: inline-block;
+    padding: 14px 0 13px 0;
+    width: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #8c8c8c;
+    color: white;
+    text-align: center;
+}
+
+.shop-menu-item:hover  .product-description {
+    background-color: #1abc9c;
+}
+
+.shop-menu-item:hover  .product-price {
+    background-color: #7fd9c7;
+}
+
+/*footer*/
+
+.footer-title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 900;
+    color: #515151;
+    width: 305px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 104px 0 122px 0;
+}
+
+.footer-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 164px;
+    height: 7px;
+    background-color: #4ec6ab;
+    top: 182px;
+    left: 70px;
+}
+
+.footer-menu {
+    list-style: none;
+}
+
+.footer-menu-item {
+    width: 350px;
+    display: inline-block;
+    margin-right: 26px;
+}
+
+.footer-menu-item:last-child {
+    margin-right: 0;
+}
+.footer-p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555252;
+    padding: 14px 0 42px 0;
+    position: relative;
+}
+
+.footer-p::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 136px;
+    height: 3px;
+    background-color: #4ec6ab;
+    top: 77px;
+    left: 0;
+}
+
+.footer-p-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555252;
+    padding-bottom: 20px;
+}
+
+.footer-button {
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 81px;
+    padding: 18px 42px;
+    background-color: #4ec6ab;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
