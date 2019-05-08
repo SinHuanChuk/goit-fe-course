@@ -1,0 +1,31 @@
+/* @import url('https://fonts.googleapis.com/css?family=Gugi|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../fonts/HelveticaNeueCyr-Black.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-Black.ttf') format('ttf');
+    font-weight: 900;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: green;
+    padding: 100px;
+    margin: 300px auto;
+}
+
+.title {
+    text-align: center;
+    color: yellow;
+    font-family: "HelveticaNeueCyr" , sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+@font-face {
+
+} */
