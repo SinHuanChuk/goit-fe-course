@@ -41,7 +41,7 @@
 
 .item {
     display: inline-block;
-    margin-top: 16px;
+    padding-top: 10px;
     margin-right: 57px;
     font-size: 14px;
     text-transform: uppercase;
@@ -417,7 +417,7 @@
 }
 
 .side-bar-item {
-    
+
 }
 
 /* the most hardest work in this site */
@@ -430,28 +430,26 @@
 
 .hidden-menu {
     position: absolute;
-    display: none;
+    opacity: 0;
     width: 384px;
     height: 474px;
     top: 0;
     left: 0;
     background: linear-gradient(rgba(239, 138, 138, 0.5), rgba(238, 214, 135, 0.5));
+    transition: transform 0.3s linear, opacity 0.3s linear;
 }
 
 .all:hover .hidden-menu {
     transition-property: top, left;
     transition-duration: 200ms;
     transition-timing-function: linear;
-    display: block;
+    opacity: 1;
 }
 
 .all:hover {
-    transition-property: top, left;
-    transition-duration: 200ms;
-    transition-timing-function: linear;
-    top: -3px;
-    left: -5px;
-    box-shadow: 17px 17px 0px -9px rgba(149,225,211,1);
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 0 rgba(149, 225, 211, 1);
+    opacity: 1;
 }
 
 .hidden-ul {
@@ -501,6 +499,22 @@
 
 .f-men {
     margin-bottom: -4px;
+}
+
+.f-img-1:hover {
+    background-color: #95e1d3;
+}
+
+.f-img-2:hover {
+    background-color: #95e1d3;
+}
+
+.f-img-3:hover {
+    background-color: #95e1d3;
+}
+
+.f-img-4:hover {
+    background-color: #95e1d3;
 }
 
 /* side-bar text work */
