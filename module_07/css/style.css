@@ -1,0 +1,256 @@
+/* Convetions */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../shrift/roboto-slab-v8-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Wisdom Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../shrift/Wisdom Script AI.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../shrift/montserrat-v13-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../shrift/montserrat-v13-cyrillic_latin-700.woff2') format('woff2');
+}
+
+/* naver */
+
+  .page-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 120px 0;
+    font-size: 0;
+}
+
+/* loger */
+
+  .logo {
+    display: inline-block;
+    font-family: 'Wisdom Script';
+    font-size: 26px;
+    color: #fed136;
+}
+
+/* navigation */
+
+  .site-navigation {
+    list-style: none;
+}
+
+  .navigation-item {
+    display: inline-block;
+    margin-right: 40px;
+    padding: 11px 0 0 0;
+}
+
+  .navigation-item:last-child {
+    margin-right: 0;
+}
+
+  .navigation-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+  .navigation-link:hover,
+  .navigation-link:focus {
+    transition-property: color;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    color: #fed136;
+}
+
+/* zagolovok */
+
+.zagolovok {
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+}
+
+/* texter */
+
+.texter {
+    font-family: 'Roboto Slab';
+    text-align: center;
+    opacity: 0.6;
+    color: #777777;
+    padding-bottom: 75px;
+}
+
+/* boder deistvia */
+
+.karman {
+    width: 312px;
+}
+
+.boder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boder-img {
+    margin-left: 39%;
+    padding-bottom: 24px;
+}
+
+.boder-zagolovok {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.text {
+    font-family: 'Roboto Slab';
+    opacity: 0.6;
+    text-align: center;
+    color: #777777;
+    font-size: 14px;
+    width: 300px;
+    padding-bottom: 120px;
+}
+
+/* slovobludstvo */
+
+.index {
+    height: 676px;
+    background-color: #222222;
+    background-size: cover;
+    position: relative;
+}
+
+.biger {
+    padding-top: 110px;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.prot {
+    font-family: 'Roboto Slab';
+    text-align: center;
+    color: #777777;
+    padding: 23px 0 75px 0;
+}
+
+.country {
+    position: absolute;
+    z-index: 1;
+    right: 2px;
+    top: 130px;
+}
+
+/* buttons */
+
+.pre-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.inputerer {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 455px;
+    height: 50px;
+    border-radius: 6px;
+    border: 2px solid #e4e4e4;
+    margin-top: 25px;
+}
+
+.input:first-child {
+    margin-top: 0;
+}
+
+.input::placeholder {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    color: #bbbbbb;
+    padding: 19px 0 21px 20px;
+    text-transform: uppercase;
+}
+
+.input:hover {
+    border: 1px solid red;
+}
+
+/* area */
+
+.text-area {
+    width: 455px;
+    height: 200px;
+    border: 2px solid #e4e4e4;
+    margin-left: 30px;
+    border-radius: 6px;
+}
+
+.text-area:hover {
+    border: 1px solid red;
+}
+
+.text-area::placeholder {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    color: #bbbbbb;
+    padding: 20px 0 0 20px;
+    text-transform: uppercase;
+}
+
+/* submit */
+
+.submiter {
+    width: 240px;
+    height: 65px;
+    border: 1px solid #fed136;
+    border-radius: 6px;
+    margin: 30px auto 0;
+    background-color: #fed136;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}

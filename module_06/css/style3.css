@@ -41,14 +41,17 @@
 
 .item {
     display: inline-block;
-    padding-top: 10px;
+    padding-top: 12px;
     margin-right: 57px;
+}
+
+.item-link {
     font-size: 14px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #95e1d3;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 .item:last-child {
@@ -61,35 +64,45 @@
     width: 50px;
     height: 3px;
     margin: 12px auto 0;
+    background-color: #f38181;
+    opacity: 0;
 }
 
 .stripe_02 {
     width: 61px;
     height: 3px;
     margin: 12px auto 0;
+    background-color: #f38181;
+    opacity: 0;
 }
 
 .stripe_03 {
     width: 46px;
     height: 3px;
     margin: 12px auto 0;
+    background-color: #f38181;
+    opacity: 0;
 }
 
 .stripe_04 {
     width: 41px;
     height: 3px;
     margin: 12px auto 0;
+    background-color: #f38181;
+    opacity: 0;
 }
 
 .stripe_05 {
     width: 67px;
     height: 3px;
     margin: 12px auto 0;
+    background-color: #f38181;
+    opacity: 0;
 }
 
 /* li hover  */
 
-.item:hover {
+.item-link:hover {
     transition-property: color;
     transition-duration: 300ms;
     transition-timing-function: linear;
@@ -98,40 +111,39 @@
 
 /* line hover pri li */
 
-.item:hover .stripe_01 {
+.item-link:hover .stripe_01 {
     /* transition-property: color; */
     transition-duration: 300ms;
     transition-timing-function: linear;
-    background-color: #f38181;
+    opacity: 1;
 }
 
-.item:hover .stripe_02 {
+.item-link:hover .stripe_02 {
     /* transition-property: color; */
     transition-duration: 300ms;
     transition-timing-function: linear;
-    
-    background-color: #f38181;
+    opacity: 1;
 }
 
-.item:hover .stripe_03 {
+.item-link:hover .stripe_03 {
     /* transition-property: color; */
     transition-duration: 300ms;
     transition-timing-function: linear;
-    background-color: #f38181;
+    opacity: 1;
 }
 
-.item:hover .stripe_04 {
+.item-link:hover .stripe_04 {
     /* transition-property: color; */
     transition-duration: 300ms;
     transition-timing-function: linear;
-    background-color: #f38181;
+    opacity: 1;
 }
 
-.item:hover .stripe_05 {
+.item-link:hover .stripe_05 {
     /* transition-property: color; */
     transition-duration: 300ms;
     transition-timing-function: linear;
-    background-color: #f38181;
+    opacity: 1;
 }
 
 /* zagolovok contenta */
@@ -189,7 +201,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    margin: -37px 115px 37px 0;
+    margin: -32px 115px 35px 0;
     color: #adadad;
 }
 
@@ -257,7 +269,7 @@
     font-size: 14px;
     font-weight: 400;
     color: #999999;
-    margin: -10px 0 0 27px;
+    margin: -13px 0 0 27px;
     width: 269px;
     height: 40px;
 }
