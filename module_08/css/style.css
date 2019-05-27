@@ -1,0 +1,190 @@
+/* convetoinses */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 320px) {
+    .page__header {
+        background: url(../img/main_img_mobile.png)rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 542px;
+    }
+
+    .container__for__link {
+        font-size: 0;
+        padding: 32px 0 125px 0;
+    }
+/* ссылки */
+    .header__link1 {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin-left: 80px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+    .header__link2 {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        padding: 10px 17px 8px 16px;
+        margin-left: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        border: 3px solid white;
+        border-radius: 25px;
+    }
+/* робота с текстом */
+    .colorer {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+    .header__logo {
+        font-size: 20px;
+        margin-bottom: 39px;
+    }
+
+    .header__zagolovok {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .header__text {
+        width: 217px;
+        margin: 0 auto 19px;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        color: white;
+    }
+
+    .button {
+        width: 280px;
+        height: 40px;
+        background-color: #ff4e50;
+        border: 1px solid #ff4e50;
+        border-radius: 25px;
+        margin-left: 20px;
+        /* text-align: center; */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .main__zagolovok {
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin: 69px 0 20px 0;
+    }
+
+/* лишки */
+
+    .li__img {
+        margin-left: 100px;
+        border-radius: 100px;
+        position: relative;
+    }
+
+    .div_img1 {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        background-color: #ff4e50;
+        top: 765px;
+        left: 175px;
+        border: 5px solid white;
+        border-radius: 100px;
+    }
+
+    .div_img2 {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        background-color: #ffa507;
+        top: 1010px;
+        left: 175px;
+        border: 5px solid white;
+        border-radius: 100px;
+    }
+
+    .div_img3 {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        background-color: #1cd7ad;
+        top: 1285px;
+        left: 175px;
+        border: 5px solid white;
+        border-radius: 100px;
+    }
+
+    .div_img4 {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        background-color: #4e73db;
+        top: 1532px;
+        left: 175px;
+        border: 5px solid white;
+        border-radius: 100px;
+    }
+
+    .link__img1 {
+        padding: 6px 0 0 8px;
+    }
+
+    .link__img2 {
+        padding: 8px 0 0 11px;
+    }
+
+    .link__img3 {
+        padding: 7px 0 0 8px;
+    }
+
+    .link__img4 {
+        padding: 8px 0 0 7px;
+    }
+
+    .div__zagolovok {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+
+    .yes {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .buttoner {
+        width: 276px;
+        height: 36px;
+        background-color: transparent;
+        border: 1px solid #ff4e50;
+        border-radius: 25px;
+        margin: 30px 0 60px 22px;
+        /* text-align: center; */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #ff4e50;
+        cursor: pointer;
+    }
+}

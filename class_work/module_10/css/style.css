@@ -1,0 +1,13 @@
+.container {
+    width: 400px;
+    height: 300px;
+    background:url(../img/origin.png) ;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .container {
+        background: url(../img/retina.png) no-repeat;
+    
+    }
+}

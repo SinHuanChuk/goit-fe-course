@@ -125,8 +125,8 @@
 }
 
 .boder-img {
-    margin-left: 39%;
-    padding-bottom: 24px;
+    margin: 0 auto 28px;
+    display: block;
 }
 
 .boder-zagolovok {
@@ -138,11 +138,11 @@
 
 .text {
     font-family: 'Roboto Slab';
-    opacity: 0.6;
+    /* opacity: 0.6; */
     text-align: center;
     color: #777777;
     font-size: 14px;
-    width: 300px;
+    /* width: 300px; */
     padding-bottom: 120px;
 }
 
