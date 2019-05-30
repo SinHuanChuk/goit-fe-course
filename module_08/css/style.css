@@ -7,18 +7,18 @@
     padding: 0;
 }
 
-@media (min-width: 320px) {
+@media all and (min-width: 320px) {
     .page__header {
-        background: url(../img/main_img_mobile.png)rgba(0, 0, 0, 0.7);
+        background: url(../img/main_img_mobile.png)rgba(0, 0, 0, 0.5);
         width: 100%;
         height: 542px;
     }
 
     .container__for__link {
         font-size: 0;
-        padding: 32px 0 125px 0;
+        padding: 32px 0 165px 0;
     }
-/* ссылки */
+/* ссылки */s
     .header__link1 {
         text-decoration: none;
         color: white;
@@ -49,12 +49,12 @@
     }
     .header__logo {
         font-size: 20px;
-        margin-bottom: 39px;
+        padding-bottom: 39px;
     }
 
     .header__zagolovok {
         font-size: 30px;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 
     .header__text {
@@ -66,7 +66,7 @@
         text-align: center;
         color: white;
     }
-
+/* кнопка */
     .button {
         width: 280px;
         height: 40px;
@@ -97,6 +97,8 @@
         border-radius: 100px;
         position: relative;
     }
+
+/* ссылки фото */
 
     .div_img1 {
         width: 35px;
@@ -142,6 +144,8 @@
         border-radius: 100px;
     }
 
+/* паддинги ссылок */
+
     .link__img1 {
         padding: 6px 0 0 8px;
     }
@@ -155,8 +159,10 @@
     }
 
     .link__img4 {
-        padding: 8px 0 0 7px;
+        padding: 8px 0 0 8px;
     }
+
+/* заголовки фото */
 
     .div__zagolovok {
         font-family: 'Montserrat', sans-serif;
@@ -166,13 +172,19 @@
         padding: 20px 0 20px 0;
     }
 
+/* текст */
+
     .yes {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         text-align: center;
         font-size: 18px;
         padding-bottom: 20px;
+        color: gray;
     }
+
+/* кнопка  */
+
     .buttoner {
         width: 276px;
         height: 36px;
@@ -188,3 +200,270 @@
         cursor: pointer;
     }
 }
+
+@media all and (min-width: 768px) {
+
+/* картина сайта */
+
+    .page__header {
+        background: url(../img/main_img.png)rgba(0, 0, 0, 0.5);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }
+
+/* ссылки */
+
+    .header__link1 {
+        position: absolute;
+        top: 50px;
+        left: 550px;
+        margin: 0;
+    }
+
+    .header__link2 {
+        position: absolute;
+        margin: 0;
+        top: 38px;
+        left: 620px;
+    }
+
+/* лого */
+
+    .header__logo {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+
+/* текст и кнопка */
+
+    .header__zagolovok {
+        font-size: 52px;
+        padding: 0 0 40px 100px;
+        width: 568px;
+    }
+
+    .header__text {
+        font-size: 24px;
+        margin: 0;
+        padding: 0 0 35px 0;
+        width: 100%;
+    }
+
+    .button {
+        margin-left: 272px;
+        width: 225px;
+        height: 40px;
+    }
+
+/* списки */
+
+    .main__ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+/* условности */
+
+    .main__zagolovok {
+        padding-bottom: 35px;
+    }
+
+    .li__img {
+        margin: 0 0 0 35px;
+    }
+    
+    .ul__li {
+        margin-left: 130px;
+        width: 180px;
+    }
+
+    .wrapperer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .povar {
+        margin-top: 23px;
+    }
+    .war {
+        margin-top: 2px;
+    }
+    
+    .minus {
+        padding: 0 0 0 105px;
+    }
+
+/* работа с текстом */
+
+    .h__text {
+        width: 250px;
+        padding: 0 0 60px 105px;
+    }
+
+    .div__zagolovok {
+        padding-left: 100px;
+    }
+
+    .div_img1 {
+        top: 925px;
+        left: 235px;
+    }
+
+    .div_img2 {
+        top: 1235px;
+        left: 235px;
+    }
+    
+    .div_img3 {
+        top: 925px;
+        left: 593px;
+    }
+
+    .div_img4 {
+        top: 1235px;
+        left: 593px;
+    }
+
+/* кнопка */
+
+    .buttoner {
+        margin-left: 305px;
+        width: 188px;
+        height: 36px;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    .page__header {
+        background: url(../img/main_img.png)rgba(0, 0, 0, 0.5);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }
+
+    .header__link1 {
+        position: absolute;
+        top: 50px;
+        left: 1040px;
+        margin: 0;
+    }
+
+    .header__link2 {
+        position: absolute;
+        margin: 0;
+        top: 38px;
+        left: 1110px;
+    }
+
+    .header__logo {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 50px;
+        left: 240px;
+    }
+
+    .header__zagolovok {
+        font-size: 52px;
+        padding: 20px 0 35px 430px;
+        width: 568px;
+    }
+
+    .button {
+        margin-left: 610px;
+        width: 225px;
+        height: 40px;
+    }
+
+    .main__ul {
+        list-style-type: none;
+
+    }
+
+    .li__img {
+    }
+
+    .ul__li {
+       
+    }
+
+    .rower1 {
+        position: absolute;
+        top: 840px;
+        left: 50px;
+        display: inline-block;
+    }
+
+    .rower2 {
+        position: absolute;
+        top: 817px;
+        left: 655px;
+        display: inline-block;
+    }
+
+    .rower3 {
+        position: absolute;
+        top: 840px;
+        left: 357px;
+        display: inline-block;
+    }
+
+    .rower4 {
+        position: absolute;
+        top: 840px;
+        left: 960px;
+        display: inline-block;
+    }
+
+
+    .wrapperer {
+        display: inline-block;
+    }
+
+    .containerer {
+        display: inline-block;
+    }
+
+    .div_img1 {
+        top: 80px;
+        left: 235px;
+    }
+
+    .div_img2 {
+        top: 100px;
+        left: 240px;
+    }
+
+    .div_img3 {
+        top: 80px;
+        left: 240px;
+    }
+
+    .div_img4 {
+        top: 77px;
+        left: 240px;
+    }
+
+    .buttoner {
+        margin-top: 300px;
+        margin-left: 626px;
+    }
+
+    .h__text {
+        width: 250px;
+    }
+}
+  
