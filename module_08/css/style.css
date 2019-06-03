@@ -1,4 +1,4 @@
-/* convetoinses */
+﻿/* convetoinses */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400&display=swap');
 
@@ -9,8 +9,8 @@
 
 @media all and (min-width: 320px) {
     .page__header {
-        background: url(../img/main_img_mobile.png)rgba(0, 0, 0, 0.5);
-        width: 100%;
+        background: url(../img/main_img_mobile.png)rgba(0, 0, 0, 0.5) no-repeat;
+        background-size: cover;
         height: 542px;
     }
 
@@ -107,7 +107,7 @@
     .div__img {
         margin: 0 auto;
         display: block;
-        border-radius: 100px;
+        border-radius: 50%;
     }
 
     /* мини ссылки */
@@ -117,7 +117,7 @@
         height: 35px;
         background-color: #ff4e50;
         border: 5px solid white;
-        border-radius: 100px;
+        border-radius: 50%;
         position: absolute;
         top: 75px;
         left: 110px;
@@ -128,7 +128,7 @@
         height: 35px;
         background-color: #ffa507;
         border: 5px solid white;
-        border-radius: 100px;
+        border-radius: 50%;
         position: absolute;
         top: 75px;
         left: 110px;
@@ -139,7 +139,7 @@
         height: 35px;
         background-color: #1cd7ad;
         border: 5px solid white;
-        border-radius: 100px;
+        border-radius: 50%;
         position: absolute;
         top: 75px;
         left: 110px;
@@ -150,7 +150,7 @@
         height: 35px;
         background-color: #4e73db;
         border: 5px solid white;
-        border-radius: 100px;
+        border-radius: 50%;
         position: absolute;
         top: 75px;
         left: 110px;
@@ -301,7 +301,6 @@
         background: url(../img/main_img.png)rgba(0, 0, 0, 0.5);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
         height: 700px;
         position: relative;
     }
@@ -350,7 +349,7 @@
     .wrapperer {
         display: flex;
         flex-direction: row;
-        width: 550px;
+        width: 540px;
         justify-content: space-between;
     }
 
@@ -358,8 +357,6 @@
 
     .buttoner {
         margin-top: 10px;
-        margin-left: 626px;
+        margin-left: 635px;
     }
-
 }
-  
