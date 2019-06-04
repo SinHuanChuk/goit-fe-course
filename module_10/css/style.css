@@ -162,7 +162,7 @@
     border: 3px solid #fce38a;
 }
 
-.main__title {
+.section__title {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
     text-align: center;
@@ -170,7 +170,7 @@
     padding-top: 45px;
 }
 
-.main__subtitle {
+.section__subtitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -179,7 +179,7 @@
     text-transform: uppercase;
 }
 
-.main__subtitle::after {
+.section__subtitle::after {
     display: block;
     content: '';
     height: 3px;
@@ -188,7 +188,7 @@
     margin: 42px auto 65px;
 }
 
-.main__div {
+.section__div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -232,7 +232,7 @@
     left: 0;
 }
 
-.main__title--second {
+.section__title--second{
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
     text-align: center;
@@ -240,7 +240,7 @@
     padding-bottom: 25px;
 }
 
-.main__subtitle--second {
+.section__subtitle--second {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -248,7 +248,7 @@
     text-transform: uppercase;
 }
 
-.main__subtitle--second::after {
+.section__subtitle--second::after {
     display: block;
     content: '';
     height: 3px;
@@ -257,7 +257,7 @@
     margin: 42px auto 45px;
 }
 
-.main__text {
+.section__text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -267,7 +267,7 @@
     padding-bottom: 95px;
 }
 
-.main__ul {
+.section__ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -356,7 +356,7 @@
     fill: white;
 }
 
-.ul__text {
+.li__text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -365,7 +365,7 @@
     text-transform: uppercase;
 }
 
-.ul__text--second {
+.li__text--second {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
