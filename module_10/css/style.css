@@ -410,7 +410,7 @@
 }
 
 .form__input--search {
-    border: 1px solid #adadad;
+    border: 0.8px solid #adadad;
     padding: 12px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
