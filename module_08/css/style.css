@@ -48,9 +48,12 @@
         color: white;
         text-transform: uppercase;
     }
+
     .header__logo {
         font-size: 20px;
-        padding-bottom: 39px;
+        text-decoration: none;
+        display: block;
+        margin: 0 auto 39px;
     }
 
     .header__zagolovok {
@@ -72,7 +75,7 @@
 /* кнопка */
     .button {
         width: 280px;
-        height: 40px;
+        height: 30px;
         background-color: #ff4e50;
         border: 1px solid #ff4e50;
         border-radius: 25px;
@@ -84,6 +87,9 @@
         color: white;
         cursor: pointer;
         display: block;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 10px;
     }
 
 /* заголовок */
@@ -268,7 +274,7 @@
     .button {
         margin-left: 272px;
         width: 225px;
-        height: 40px;
+        height: 30px;
     }
 
 /* позиционирование */
@@ -336,7 +342,7 @@
     .button {
         margin-left: 610px;
         width: 225px;
-        height: 40px;
+        height: 30px;
     }
 
     /* позиционирование */
