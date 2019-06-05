@@ -40,7 +40,7 @@
 
 .site-navigation {
     font-family: 'Roboto', sans-serif;
-    display: inline-block;
+    display: block;
     list-style: none;
 }
 
@@ -72,22 +72,18 @@
     font-size: 46px;
     font-weight: 900;
     color: #515151;
-    width: 477px;
-    margin: 0 auto;
     position: relative;
     text-align: center;
-    padding-bottom: 133px;
+    padding-bottom: 120px;
 }
 
-.shop-title::before {
+.shop-title::after {
     content: "";
     display: block;
-    position: absolute;
     width: 164px;
     height: 7px;
+    margin: 20px auto 0;
     background-color: #4ec6ab;
-    top: 78px;
-    left: 155px;
 }
 
 .shop-menu {
@@ -99,6 +95,10 @@
     display: inline-block;
     margin-top: 30px;
     margin-right: 26px;
+}
+
+.shop-menu-item:nth-child(-n+4) {
+    margin-top: 0;
 }
 
 .shop-menu-item:nth-child(4n) {
@@ -182,6 +182,7 @@
     width: 350px;
     display: inline-block;
     margin-right: 26px;
+    padding-bottom: 81px;
 }
 
 .footer-menu-item:last-child {
@@ -218,7 +219,6 @@
 .footer-button {
     border: none;
     border-radius: 3px;
-    margin-bottom: 81px;
     padding: 18px 42px;
     background-color: #4ec6ab;
     color: white;
@@ -226,4 +226,5 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    text-decoration: none;
 }
