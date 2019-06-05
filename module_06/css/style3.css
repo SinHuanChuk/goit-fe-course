@@ -160,7 +160,7 @@
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
-    padding: 22px 0 110px 0;
+    padding: 22px 0 100px 0;
 }
 
 .zagolovok::after {
@@ -183,8 +183,10 @@
 }
 
 .item-content {
-    width: 330px;
+    width: 350px;
+    padding-left: 50px;
     margin-bottom: 102px;
+    position: relative;
 }
 
 
@@ -194,194 +196,30 @@
 
 /* work with text */
 
+.item-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* very hard work */
 
-.p-mainer-1 {
-    text-align: center;
+.p-mainer {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    margin: -32px 115px 35px 0;
     color: #adadad;
-}
-
-.p-mainer-2 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: -39px 120px 37px 0 ;
-    color: #adadad;  
-}
-
-.p-mainer-3 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: -35px 125px 38px 0;
-    color: #adadad;
-}
-
-.p-mainer-4 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: -38px 190px 38px 0;
-    color: #adadad;
-}
-
-.p-mainer-5 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: -38px 140px 38px 0;
-    color: #adadad;
-}
-
-.p-mainer-6 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: -38px 150px 38px 0;
-    color: #adadad;
+    padding-bottom: 15px;
 }
 
 /* settings of text */
 
-.p-com-1 {
-    text-align: center;
+.p-com {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #999999;
-    margin: -26px 0 0 44px;
-    width: 269px;
-    height: 40px;
-}
-
-.p-com-1-2 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-    margin: -13px 0 0 27px;
-    width: 269px;
-    height: 40px;
-}
-
-.p-com-2 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-    margin: -25px 0 0 20px;
-    width: 269px;
-    height: 40px;
-}
-
-.p-com-2-2 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-    margin: -13px 0 0 24px;
-    width: 269px;
-    height: 40px;
-}
-
-.p-com-3 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-    margin: -28px 0 0 52px;
-    width: 269px;
-    height: 40px;
-}
-
-.p-com-3-2 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-    margin: -12px 0 0 -2px;
-    width: 269px;
-    height: 40px;
-}
-
-.p-com-4 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-    margin: -25px 0 0 23px;
-    width: 269px;
-    height: 40px;
-}
-
-.p-com-4-2 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-    margin: -13px 0 0 5px;
-    width: 269px;
-    height: 40px;
-}
-
-.p-com-5 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-    margin: -28px 0 0 23px;
-    width: 269px;
-    height: 40px;
-}
-
-.p-com-5-2 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-    margin: -13px 0 0 5px;
-    width: 269px;
-    height: 40px;
-}
-
-.p-com-6 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-    margin: -29px 0 0 58px;
-    width: 270px;
-    height: 40px;
-}
-
-.p-com-6-2 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #999999;
-    margin: -13px 0 0 -23px;
-    width: 269px;
-    height: 40px;
+    line-height: 2;
 }
 
 /* footer must info */
