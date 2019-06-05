@@ -39,8 +39,9 @@
 
 .site-navigation {
     font-family: 'Roboto', sans-serif;
-    display: inline-block;
     list-style: none;
+    font-size: 0;
+    display: block;
 }
 
 .site-navigation li {
@@ -63,6 +64,7 @@
 .site-navigation a {
     text-decoration: none;
     color: black;
+    font-size: 16px;
 }
 
 /*main-img*/
