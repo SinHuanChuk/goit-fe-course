@@ -54,18 +54,18 @@
     color: #fce38a;
 }
 
-.list__item {
+.nav__item{
     display: inline-block;
     margin-left: 50px;
     margin-top: 10px;
 }
 
-.list__item--svg {
+.nav__icon {
     display: inline-block;
     margin-left: 50px;
 }
 
-.item__link {
+.nav__link {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -77,11 +77,11 @@
     transition: all 500ms ease-in-out;
 }
 
-.item__link:hover, .item__link:focus{
+.nav__link:hover, .nav__link:focus{
     color: #fce38a;
 }
 
-.item__link::after {
+.nav__link::after {
     display: block;
     content: '';
     height: 3px;
@@ -95,20 +95,20 @@
     margin-top: 0;
 }
 
-.item__link:hover::after, .item__link:focus::after {
+.nav__link:hover::after, .nav__link:focus::after {
     -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
             transform: scaleX(1);
     margin-top: 12px;
 }
 
-.item__link--svg path {
+.nav__link--svg path {
     -webkit-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
 }
 
-.item__link--svg:hover path {
+.nav__link--svg:hover path {
     fill: #fce38a;
 }
 
@@ -155,7 +155,7 @@
     transition: all 500ms ease-in-out;
 }
 
-.div__button:hover, .button:focus {
+.div__button:hover, .div__button:focus {
     color: #fce38a;
     width: 168px;
     height: 42px;
@@ -188,7 +188,7 @@
     margin: 42px auto 65px;
 }
 
-.section__div {
+.services__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -199,18 +199,24 @@
         flex-wrap: wrap;
 }
 
-.div__wrapper {
+.services__item {
     width: 350px;
     padding-left: 50px;
     margin-bottom: 105px;
     position: relative;
 }
 
-.div__wrapper:nth-child(n+4) {
+.services__item:nth-child(n+4) {
     margin-bottom: 90px;
 }
 
-.div__h {
+.services__icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.services__title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -218,18 +224,12 @@
     padding-bottom: 17px;
 }
 
-.div__text {
+.services__text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 2;
     color: gray;
-}
-
-.div__svg {
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .section__title--second{
