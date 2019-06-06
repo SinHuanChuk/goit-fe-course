@@ -35,7 +35,7 @@
             justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 190px;
-    height: 30px;
+    max-height: 35px;
 }
 
 .nav__logo {
@@ -85,7 +85,7 @@
     display: block;
     content: '';
     height: 3px;
-    background-color: #fce38a;
+    background-color: transparent;
     -webkit-transform: scaleX(0);
         -ms-transform: scaleX(0);
             transform: scaleX(0);
@@ -99,6 +99,7 @@
     -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
             transform: scaleX(1);
+            background-color: #fce38a;
     margin-top: 12px;
 }
 
