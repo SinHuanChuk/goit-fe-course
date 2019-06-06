@@ -126,10 +126,10 @@
         width: 35px;
         height: 35px;
         background-color: #ff4e50;
-        border: 5px solid white;
+        border: 3px solid white;
         border-radius: 50%;
         position: absolute;
-        top: 75px;
+        top: 82px;
         left: 110px;
     }
 
@@ -137,10 +137,10 @@
         width: 35px;
         height: 35px;
         background-color: #ffa507;
-        border: 5px solid white;
+        border: 3px solid white;
         border-radius: 50%;
         position: absolute;
-        top: 75px;
+        top: 82px;
         left: 110px;
     }
 
@@ -148,10 +148,10 @@
         width: 35px;
         height: 35px;
         background-color: #1cd7ad;
-        border: 5px solid white;
+        border: 3px solid white;
         border-radius: 50%;
         position: absolute;
-        top: 75px;
+        top: 82px;
         left: 110px;
     }
 
@@ -159,29 +159,29 @@
         width: 35px;
         height: 35px;
         background-color: #4e73db;
-        border: 5px solid white;
+        border: 3px solid white;
         border-radius: 50%;
         position: absolute;
-        top: 75px;
+        top: 82px;
         left: 110px;
     }
 
     /* паддинги ссылок */
 
     .a__img1 {
-        padding: 6px 0 0 8px;
+        padding: 4px 0 0 5px;
     }
 
     .a__img2 {
-        padding: 8px 0 0 11px;
+        padding: 5px 0 0 8px;
     }
 
     .a__img3 {
-        padding: 7px 0 0 8px;
+        padding: 3px 0 0 6px;
     }
 
     .a__img4 {
-        padding: 8px 0 0 8px;
+        padding: 6px 0 0 5px;
     }
 
     /* текст */
@@ -227,6 +227,7 @@
 
     .container {
         width: 748px;
+        padding: 0 15px;
     }
 
     .page__header {
@@ -284,17 +285,20 @@
         width: 225px;
         height: 30px;
     }
+}
 
 /* позиционирование */
 
     .boder {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-
 
     .section__karman {
         margin-left: 0;
+        flex: 0 0 220px;
+        margin: 0 15px;
     }
 
 /* кнопка */
@@ -306,7 +310,7 @@
     }
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 1440px) {
 
     .container {
         width: 940px;
@@ -361,11 +365,30 @@
         justify-content: space-around;
     }
 
-
     /* ниже кнопка */
 
     .buttoner {
         margin-top: 10px;
         margin-left: 635px;
+    }
+
+    .section__paket1 {
+        top: 82px;
+        left: 120px;
+    }
+
+    .section__paket2 {
+        top: 82px;
+        left: 120px;
+    }
+
+    .section__paket3 {
+        top: 82px;
+        left: 120px;
+    }
+
+    .section__paket4 {
+        top: 82px;
+        left: 120px;
     }
 }
