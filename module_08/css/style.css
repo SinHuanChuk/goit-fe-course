@@ -129,7 +129,7 @@
         border: 3px solid white;
         border-radius: 50%;
         position: absolute;
-        top: 82px;
+        top: 75px;
         left: 110px;
     }
 
@@ -140,7 +140,7 @@
         border: 3px solid white;
         border-radius: 50%;
         position: absolute;
-        top: 82px;
+        top: 75px;
         left: 110px;
     }
 
@@ -151,7 +151,7 @@
         border: 3px solid white;
         border-radius: 50%;
         position: absolute;
-        top: 82px;
+        top: 75px;
         left: 110px;
     }
 
@@ -162,26 +162,26 @@
         border: 3px solid white;
         border-radius: 50%;
         position: absolute;
-        top: 82px;
+        top: 75px;
         left: 110px;
     }
 
     /* паддинги ссылок */
 
     .a__img1 {
-        padding: 4px 0 0 5px;
+        padding: 6px 0 0 8px;
     }
 
     .a__img2 {
-        padding: 5px 0 0 8px;
+        padding: 8px 0 0 11px;
     }
 
     .a__img3 {
-        padding: 3px 0 0 6px;
+        padding: 7px 0 0 8px;
     }
 
     .a__img4 {
-        padding: 6px 0 0 5px;
+        padding: 8px 0 0 8px;
     }
 
     /* текст */
@@ -227,8 +227,6 @@
 
     .container {
         width: 748px;
-        padding: 0 15px;
-        margin: 0 auto;
     }
 
     .page__header {
@@ -286,20 +284,19 @@
         width: 225px;
         height: 30px;
     }
-}
 
 /* позиционирование */
 
     .boder {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         flex-wrap: wrap;
     }
 
+
     .section__karman {
         margin-left: 0;
-        flex: 0 0 220px;
-        margin: 0 15px;
+        width: 250px;
     }
 
 /* кнопка */
@@ -309,9 +306,30 @@
         width: 188px;
         height: 36px;
     }
+
+    .section__paket1 {
+        top: 78px;
+        left: 130px;
+    }
+
+    .section__paket2 {
+        top: 78px;
+        left: 130px;
+    }
+
+    .section__paket3 {
+        top: 78px;
+        left: 130px;
+    }
+
+    .section__paket4 {
+        top: 78px;
+        left: 130px;
+    }
+
 }
 
-@media all and (min-width: 1440px) {
+@media all and (min-width: 960px) {
 
     .container {
         width: 940px;
@@ -367,6 +385,7 @@
         justify-content: space-around;
     }
 
+
     /* ниже кнопка */
 
     .buttoner {
@@ -374,23 +393,28 @@
         margin-left: 635px;
     }
 
+    .section__karman {
+        margin-left: 0;
+        width: 200px;
+    }
+
     .section__paket1 {
-        top: 82px;
-        left: 120px;
+        top: 76px;
+        left: 105px;
     }
 
     .section__paket2 {
-        top: 82px;
-        left: 120px;
+        top: 76px;
+        left: 105px;
     }
 
     .section__paket3 {
-        top: 82px;
-        left: 120px;
+        top: 76px;
+        left: 105px;
     }
 
     .section__paket4 {
-        top: 82px;
-        left: 120px;
+        top: 76px;
+        left: 105px;
     }
 }
