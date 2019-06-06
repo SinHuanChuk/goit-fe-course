@@ -228,6 +228,7 @@
     .container {
         width: 748px;
         padding: 0 15px;
+        margin: 0 auto;
     }
 
     .page__header {
@@ -314,6 +315,7 @@
 
     .container {
         width: 940px;
+        margin: 0 auto;
     }
 
     .page__header {
