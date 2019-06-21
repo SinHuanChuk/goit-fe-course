@@ -1,0 +1,1021 @@
+/*
+   Import partials below
+*/
+
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300,400&display=swap");
+
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+
+/**
+   * Remove the margin in all browsers.
+   */
+
+body {
+  margin: 0;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+
+/**
+   * Add the correct display in IE 10+.
+   */
+
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+
+[hidden] {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.first {
+  padding: 13px 0 0 21px;
+}
+
+.second {
+  padding: 17px 11px 17px 12px;
+}
+
+.third {
+  padding: 15px 17px 15px 18px;
+}
+
+.four {
+  padding: 15px 16px 15px 14px;
+}
+
+/* convetions */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* shapka */
+
+.header {
+  background-image: url("../images/eagle__@1X.png");
+  width: 100%;
+  height: 1000px;
+}
+
+.header__img {
+  background-image: linear-gradient(135deg, rgba(252, 59, 59, 0.7) 0%, rgba(217, 3, 81, 0) 70%), linear-gradient(25deg, #f5fda9 10%, rgba(236, 195, 5, 0) 80%), linear-gradient(315deg, rgba(252, 59, 59, 0.7) 15%, rgba(231, 1, 13, 0) 80%), linear-gradient(245deg, rgba(245, 253, 169, 0.5) 100%, rgba(213, 138, 6, 0) 70%);
+  width: 100%;
+  height: 1000px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 190px;
+  max-height: 35px;
+}
+
+/* logo */
+
+.nav__logo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  transition: all 350ms ease-in-out;
+  cursor: pointer;
+}
+
+.nav__logo:hover,
+.nav__logo:focus {
+  font-size: 35px;
+  color: #fce38a;
+}
+
+/* li__icon__link */
+
+.nav__item {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.nav__icon {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  transition: all 350ms ease-in-out;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: #fce38a;
+}
+
+.nav__link::after {
+  display: block;
+  content: '';
+  height: 3px;
+  background-color: transparent;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  transition: all 500ms ease-in-out;
+  margin-top: 0;
+}
+
+.nav__link:hover::after,
+.nav__link:focus::after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  background-color: #fce38a;
+  margin-top: 12px;
+}
+
+.nav__link--svg path {
+  transition: all 350ms ease-in-out;
+}
+
+.nav__link--svg:hover path {
+  fill: #fce38a;
+}
+
+/* text and button */
+
+.div__title {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  font-size: 72px;
+  padding-bottom: 50px;
+}
+
+.div__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 110px;
+}
+
+.div__button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: white;
+  width: 160px;
+  height: 40px;
+  border: 3px solid white;
+  text-align: center;
+  background: transparent;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 350ms ease-in-out;
+}
+
+.div__button:hover,
+.div__button:focus {
+  color: #fce38a;
+  width: 168px;
+  height: 42px;
+  border: 3px solid #fce38a;
+}
+
+/* second text */
+
+.section__title {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 45px;
+}
+
+.section__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+
+.section__subtitle::after {
+  display: block;
+  content: '';
+  height: 3px;
+  width: 60px;
+  background-color: #f38181;
+  margin: 42px auto 65px;
+}
+
+/* div with photo and text */
+
+.services__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.services__item {
+  width: 350px;
+  padding-left: 50px;
+  margin-bottom: 105px;
+  position: relative;
+}
+
+.services__item:nth-child(n+4) {
+  margin-bottom: 90px;
+}
+
+.services__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* text and title */
+
+.services__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-bottom: 17px;
+}
+
+.services__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  color: gray;
+}
+
+/* second title and text */
+
+.hyper__title {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 25px;
+}
+
+.hyper__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hyper__subtitle::after {
+  display: block;
+  content: '';
+  height: 3px;
+  width: 60px;
+  background-color: #f38181;
+  margin: 42px auto 45px;
+}
+
+.hyper__subtext {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  color: gray;
+  text-align: center;
+  padding-bottom: 95px;
+}
+
+/* list__men */
+
+.hyper__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hyper__img {
+  margin-bottom: -4px;
+}
+
+/* shadow */
+
+.hyper__container {
+  transition: all 350ms ease-in-out;
+  position: relative;
+}
+
+.hyper__container:hover {
+  box-shadow: 10px 10px 0 0 #95e1d3;
+  opacity: 1;
+  -webkit-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px);
+}
+
+/* gradient */
+
+.hyper__hidden--menu {
+  position: absolute;
+  opacity: 0;
+  width: 384px;
+  height: 474px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(239, 138, 138, 0.7), rgba(238, 214, 135, 0.7));
+  transition: all 350ms ease-in-out;
+}
+
+.hyper__container:hover .hyper__hidden--menu {
+  opacity: 1;
+}
+
+/* hidden__list */
+
+.hyper__hidden--list {
+  width: 224px;
+  margin: 207px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* hidden__link */
+
+.hyper__hidden--link path {
+  transition: all 350ms ease-in-out;
+  padding: 15px 20px 15px 23px;
+}
+
+/* hidden__item */
+
+.hyper__hidden--item {
+  margin-right: 2px;
+  width: 55px;
+  height: 56px;
+  background-color: #fce38a;
+  transition: all 350ms ease-in-out;
+  cursor: pointer;
+}
+
+.hyper__hidden--item:hover {
+  background-color: #f38181;
+}
+
+.hyper__hidden--item:hover .hyper__hidden--link path {
+  fill: white;
+}
+
+/* bottom text */
+
+.hyper__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.hyper__text--second {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  padding: 15px 0 80px 0;
+  font-style: italic;
+  color: gray;
+}
+
+/* footer */
+
+.footer {
+  position: relative;
+}
+
+/* all container */
+
+.bottom__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* bottom__text */
+
+.bottom__text--first {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 25px 0 25px 0;
+}
+
+.bottom__text--second {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f6a6a6;
+  top: 27px;
+  left: 285px;
+}
+
+/* bottom__div */
+
+.bottom__wrapper--second {
+  margin-top: 15px;
+}
+
+/* bottom__input */
+
+.bottom__input--search {
+  border: 0.8px solid #adadad;
+  padding: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: italic;
+  color: gray;
+  margin-right: -4px;
+}
+
+.bottom__input--submit {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding: 12px 33px;
+  background-color: #95e1d3;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  transition: all 350ms ease-in-out;
+}
+
+.bottom__input--submit:hover {
+  background-color: #fce38a;
+  color: #f6a6a6;
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/fonts/OpenSans-Light.ttf") format("truetype") url("../fonts/fonts/OpenSans-Light.woff") format("woff") url("../fonts/fonts/OpenSans-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/fonts/OpenSans-LightItalic.ttf") format("truetype") url("../fonts/fonts/OpenSans-LightItalic.woff") format("woff") url("../fonts/fonts/OpenSans-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/fonts/OpenSans-Regular.ttf") format("truetype") url("../fonts/fonts/OpenSans-Regular.woff") format("woff") url("../fonts/fonts/OpenSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/fonts/OpenSans-SemiBold.ttf") format("truetype") url("../fonts/fonts/OpenSans-SemiBold.woff") format("woff") url("../fonts/fonts/OpenSans-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  src: url("../fonts/fonts/OpenSans-SemiBoldItalic.ttf") format("truetype") url("../fonts/fonts/OpenSans-SemiBoldItalic.woff") format("woff") url("../fonts/fonts/OpenSans-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/fonts/OpenSans-Bold.ttf") format("truetype") url("../fonts/fonts/OpenSans-Bold.woff") format("woff") url("../fonts/fonts/OpenSans-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  src: url("../fonts/fonts/OpenSans-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  src: url("../fonts/fonts/OpenSans-ExtraBold.ttf") format("truetype") url("../fonts/fonts/OpenSans-ExtraBold.woff") format("woff") url("../fonts/fonts/OpenSans-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  src: url("../fonts/fonts/OpenSans-ExtraBoldItalic.ttf") format("truetype") url("../fonts/fonts/OpenSans-ExtraBoldItalic.woff") format("woff") url("../fonts/fonts/OpenSans-ExtraBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  src: url("../fonts/fonts/Raleway-Thin.ttf") format("truetype") url("../fonts/fonts/Raleway-Thin.woff") format("woff") url("../fonts/fonts/Raleway-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  src: url("../fonts/fonts/Raleway-ThinItalic.ttf") format("truetype") url("../fonts/fonts/Raleway-ThinItalic.woff") format("woff") url("../fonts/fonts/Raleway-ThinItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  src: url("../fonts/fonts/Raleway-ExtraLight.ttf") format("truetype") url("../fonts/fonts/Raleway-ExtraLight.woff") format("woff") url("../fonts/fonts/Raleway-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  src: url("../fonts/fonts/Raleway-ExtraLightItalic.ttf") format("truetype") url("../fonts/fonts/Raleway-ExtraLightItalic.woff") format("woff") url("../fonts/fonts/Raleway-ExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/fonts/Raleway-Light.ttf") format("truetype") url("../fonts/fonts/Raleway-Light.woff") format("woff") url("../fonts/fonts/Raleway-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/fonts/Raleway-LightItalic.ttf") format("truetype") url("../fonts/fonts/Raleway-LightItalic.woff") format("woff") url("../fonts/fonts/Raleway-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/fonts/Raleway-Regular.ttf") format("truetype") url("../fonts/fonts/Raleway-Regular.woff") format("woff") url("../fonts/fonts/Raleway-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/fonts/Raleway-Medium.ttf") format("truetype") url("../fonts/fonts/Raleway-Medium.woff") format("woff") url("../fonts/fonts/Raleway-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  src: url("../fonts/fonts/Raleway-MediumItalic.ttf") format("truetype") url("../fonts/fonts/Raleway-MediumItalic.woff") format("woff") url("../fonts/fonts/Raleway-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/fonts/Raleway-SemiBold.ttf") format("truetype") url("../fonts/fonts/Raleway-SemiBold.woff") format("woff") url("../fonts/fonts/Raleway-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  src: url("../fonts/fonts/Raleway-SemiBoldItalic.ttf") format("truetype") url("../fonts/fonts/Raleway-SemiBoldItalic.woff") format("woff") url("../fonts/fonts/Raleway-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/fonts/Raleway-Bold.ttf") format("truetype") url("../fonts/fonts/Raleway-Bold.woff") format("woff") url("../fonts/fonts/Raleway-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  src: url("../fonts/fonts/Raleway-BoldItalic.ttf") format("truetype") url("../fonts/fonts/Raleway-BoldItalic.woff") format("woff") url("../fonts/fonts/Raleway-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  src: url("../fonts/fonts/Raleway-ExtraBold.ttf") format("truetype") url("../fonts/fonts/Raleway-ExtraBold.woff") format("woff") url("../fonts/fonts/Raleway-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  src: url("../fonts/fonts/Raleway-ExtraBold.ttf") format("truetype") url("../fonts/fonts/Raleway-ExtraBold.woff") format("woff") url("../fonts/fonts/Raleway-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  src: url("../fonts/fonts/Raleway-ExtraBoldItalic.ttf") format("truetype") url("../fonts/fonts/Raleway-ExtraBoldItalic.woff") format("woff") url("../fonts/fonts/Raleway-ExtraBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/fonts/Raleway-Black.ttf") format("truetype") url("../fonts/fonts/Raleway-Black.woff") format("woff") url("../fonts/fonts/Raleway-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  src: url("../fonts/fonts/Raleway-BlackItalic.ttf") format("truetype") url("../fonts/fonts/Raleway-BlackItalic.woff") format("woff") url("../fonts/fonts/Raleway-BlackItalic.woff2") format("woff2");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header {
+    background-image: url("../images/eagle__@2X.png");
+  }
+}
