@@ -49,9 +49,9 @@
     font-weight: 700;
     font-size: 30px;
     color: white;
-    -webkit-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
     cursor: pointer;
 }
 
@@ -80,9 +80,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 14px;
-    -webkit-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
 }
 
 .nav__link:hover, .nav__link:focus{
@@ -112,9 +112,9 @@
 }
 
 .nav__link--svg path {
-    -webkit-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
 }
 
 .nav__link--svg:hover path {
@@ -161,9 +161,9 @@
             justify-content: center;
     margin: 0 auto;
     cursor: pointer;
-    -webkit-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
 }
 
 .div__button:hover, .div__button:focus {
@@ -304,9 +304,9 @@
 /* shadow */
 
 .hyper__container {
-    -webkit-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
     position: relative;
 }
 
@@ -332,9 +332,9 @@
     background: -webkit-linear-gradient(rgba(239, 138, 138, 0.7), rgba(238, 214, 135, 0.7));
     background: -o-linear-gradient(rgba(239, 138, 138, 0.7), rgba(238, 214, 135, 0.7));
     background: linear-gradient(rgba(239, 138, 138, 0.7), rgba(238, 214, 135, 0.7));
-    -webkit-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
 }
 
 .hyper__container:hover .hyper__hidden--menu {
@@ -357,9 +357,9 @@
 /* hidden__link */
 
 .hyper__hidden--link path {
-    -webkit-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
     padding: 15px 20px 15px 23px;
 }
 
@@ -370,9 +370,9 @@
     width: 55px;
     height: 56px;
     background-color: #fce38a;
-    -webkit-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
     cursor: pointer;
 }
 
@@ -380,7 +380,7 @@
     background-color: rgb(243,129,129);
 }
 
-.hyper__hidden--item:hover .ul__li--link path {
+.hyper__hidden--item:hover .hyper__hidden--link path {
     fill: white;
 }
 
@@ -469,9 +469,9 @@
     text-transform: uppercase;
     cursor: pointer;
     border: none;
-    -webkit-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
 }
 
 .bottom__input--submit:hover {

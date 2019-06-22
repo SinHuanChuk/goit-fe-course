@@ -1,9 +1,36 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:300,400,700&display=swap');
+ 
+/* convetions */
 
-.features-list {
-    list-style-type: none;
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-}
+ .container {
+     width: 1110px;
+     margin: 0 auto;
+ }
+
+ .services__nav {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ /* font_face */
+
+ .services__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+ }
+
+ .services__title:first-letter {
+    color: #4ec6ab;
+ }
+
+ .services__list {
+    list-style: none;
+ }
